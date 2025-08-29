@@ -77,7 +77,7 @@ export default async function BlogPostPage(props: { params: { slug: string } }) 
           </div>
           </div>
           <article>
-            <div dangerouslySetInnerHTML={{ __html: htmlContent }} className=""></div>
+            <div dangerouslySetInnerHTML={{ __html: htmlContent }} className="article"></div>
           </article>
           </div>
     </section>
